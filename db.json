@@ -1,0 +1,121 @@
+// Basket Product Card
+
+
+{
+  "isSuccess": true,
+  "statusCode": 200,
+  "result": {
+    "merchantInfo": {
+      "name": {
+        "value": "Hepsiburada Limited...",
+        "color": "#212121",
+        "fontSize": "12px",
+        "iconSvg": "<svg width=\"16\" height=\"16\" fill=\"none\"><path d=\"M10.195 7.529c.26.26.26.682 0 .942l-2.39 2.39a.667.667 0 01-1.138-.47V5.608a.667.667 0 011.138-.471l2.39 2.39z\" fill=\"#111\"></path></svg>"
+      },
+      "redirectUrl": "https://www.hepsiburada.com/magaza/hepsiburada",
+      "redirectDeeplinkUrl": "hbapp://merchant?urlKeyword=hepsiburada"
+    },
+    "shippingInfo": {
+      "freeShipping": {
+        "exist": true,
+        "value": "Kargo Bedava",
+        "color": "#008A09"
+      },
+      "deliveryDate": {
+        "value": "Yarın Kapında",
+        "color": "#212121",
+        "iconUrl": "https://images.hepsiburada.net/shipping/assets/NextDayDelivery.svg"
+      }
+    },
+    "productInfo": {
+      "image": {
+        "url": "https://productimages.hepsiburada.net/s/189/250/110000155170656.jpg",
+        "redirectUrl": "http://www.hepsiburada.com/iphone-13-128-gb-p-HBCV00000ODHI3?magaza=Hepsiburada",
+        "redirectDeeplinkUrl": "hbapp://product?sku=HBCV00000ODHI3&merchantName=Hepsiburada",
+        "width": "80px",
+        "height": "80px",
+        "badge": {
+          "color": "#FF6000",
+          "text": "Son 1 Ürün"
+        }
+      },
+      "name": {
+        "value": "Lorem Ipsum Dolor Amit Sit Down Nexum Loremissu Muse Missu M...",
+        "maxLine": 2
+      },
+      "variant": {
+        "value": "Mavi / 32",
+        "fontSize": "11px",
+        "color": "#212121"
+      },
+      "selection": {
+        "exist": true,
+        "color": "#FF6000",
+        "radius": "8px",
+        "icon": "tick"
+      },
+      "quantity": {
+        "value": 1,
+        "max": 10,
+        "fontSize": "12px",
+        "isMax": false,
+        "isMin": true,
+        "remove": {
+          "icon": "trash",
+          "width": "24px",
+          "height": "24px"
+        },
+        "increase": {
+          "icon": "plus"
+        },
+        "decrease": {
+          "icon": "minus"
+        }
+      },
+      "oldPrice": {
+        "value": "999.999,99",
+        "fontSize": "10px",
+        "color": "#9B9B9B",
+        "strikethrough": true,
+        "unit": {
+          "value": "₺",
+          "fontSize": "14px",
+          "color": "#212121"
+        }
+      },
+      "price": {
+        "value": "Bedava",
+        "fontSize": "14px",
+        "color": "#212121",
+        "strikethrough": false
+      },
+      "priceBadge": {
+        "exist": true,
+        "value": "Son 3 saat",
+        "color": "#6B83FA",
+        "backgroundColor": "#F0F2FF",
+        "icon": "clock"
+      },
+      "customizability": {
+        "exist": true,
+        "beforeEdit": {
+          "value": "Plaka Numarası Giriniz",
+          "fontSize": "16px",
+          "color": "#9B9B9B",
+          "icon": "cargo",
+          "backgroundColor": "#E5E5E5"
+        },
+        "onError": {
+          
+        },
+        "afterEdit": {
+          "value": "34 ABC 123",
+          "fontSize": "16px",
+          "color": "#212121",
+          "icon": "cargo",
+          "backgroundColor": "#DADADA"
+        }
+      }
+    }
+  }
+}
